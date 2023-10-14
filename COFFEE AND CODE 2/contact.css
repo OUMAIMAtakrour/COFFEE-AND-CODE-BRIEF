@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;800&family=Irish+Grover&family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto+Slab:wght@200&display=swap');
+
+html,
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: Inter;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+main {}
+
+main section header .logo img {
+    width: 210px;
+    height: 150px;
+}
+
+
+main section.BACKGROUND {
+    background-image: url(images/Group\ 38.png);
+    height: 140vh;
+    background-size: cover;
+}
+
+
+main section header .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section header .heading .local-info {
+    margin-left: 200px;
+}
+
+main section header .heading .local-info h1 {
+    width: 50px;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+main section header .heading .local-info h1 span {
+    margin-left: 30px;
+}
+
+main section header .heading .local-info p {
+    color: #fff;
+    line-height: 1.6;
+}
+
+main section header .heading .local-info .contact h2 {
+    text-transform: capitalize;
+    margin: 1em 0 1em 30px;
+}
+
+main section header .heading .local-info .contact a {
+    color: #fff;
+    margin-left: 25px;
+}
+
+main section header .heading h2.london {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 8rem;
+    margin-top: 20%;
+}
+
+main section header .heading-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main section header .heading-grid nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+main section header .heading-grid .contact-us h3 {
+    text-align: center;
+    margin-bottom: 7.4em;
+    margin-top: 3rem;
+}
+
+main section header div.heading-grid div.icons-social-media {
+    margin-top: 12em;
+}
+
+main section header div.heading-grid div.icons-social-media .fa-brands {
+    font-size: 50px;
+    color: #735037;
+    margin-left: 10px
+}
+
+
+/* FOOTER */
+
+
+.footer img {
+    width: 100%;
+}
+
+.list ul li {
+    margin-bottom: 270px;
+    margin-top: -350px;
+    margin-left: 200px;
+    list-style: none;
+    color: #E3D9D5;
+}
+
+.list ul {
+    margin-bottom: -200px;
+}
+
+.logofooter {
+    width: 200px;
+    height: 30px;
+    margin-top: -600px;
+    margin-left: 900px;
+}
+
+.contact ul li {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 600px;
+    list-style: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+footer .overlay {
+
+    background-color: #00000099;
+
+}
