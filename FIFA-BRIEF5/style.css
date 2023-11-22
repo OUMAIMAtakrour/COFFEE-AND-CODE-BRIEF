@@ -1,0 +1,28 @@
+html body{
+    overflow-x: hidden;
+}
+header{
+    height: 100vh;
+    background-image: url(images/stad.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+/* header h1{
+    line-height: 80vh;
+} */
+.overlay{
+     background-color: rgba(0, 0, 0, 0.477);
+    height: 100%;
+    width: 100%;
+}
+.section1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
